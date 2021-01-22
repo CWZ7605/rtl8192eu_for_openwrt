@@ -74,7 +74,7 @@ endef
 
 define Build/Prepare
 	mkdir -p $(PKG_BUILD_DIR)
-	$(CP) ./rtl8192EU_WiFi_linux_20201025/* $(PKG_BUILD_DIR)
+	$(CP) ./rtl8192EU_WiFi_linux_20210111/* $(PKG_BUILD_DIR)
 endef
 
 define Build/Compile
